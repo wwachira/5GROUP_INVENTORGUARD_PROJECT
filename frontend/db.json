@@ -1,0 +1,34 @@
+{
+    "bookings": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "phoneNumber": "0723456789",
+        "location": "Ngong Rd",
+        "numberOfPeople": 1,
+        "orderTreatment": "Massage",
+        "date": "2022-06-16T14:30:00.000Z",
+        "time": "14:30"
+      },
+      {
+        "id": 2,
+        "name": "Jane Doe",
+        "phoneNumber": "0723456789",
+        "location": "Thika Rd",
+        "numberOfPeople": 2,
+        "orderTreatment": "Massage",
+        "date": "2022-06-17T10:00:00.000Z",
+        "time": "10:00"
+      },
+      {
+        "id": 3,
+        "name": "Bob Smith",
+        "phoneNumber": "0723456789",
+        "location": "Mombasa Rd",
+        "numberOfPeople": 1,
+        "orderTreatment": "Massage",
+        "date": "2022-06-18T14:30:00.000Z",
+        "time": "14:30"
+      }
+    ]
+  }
