@@ -1,8 +1,19 @@
-# React + Vite
+  # Phase 3 -Project Challenge: Bei Nafuu Spa KE - with database
+   - user-friendly interface for for the Spa.
+   - Two components for different parts of the application.
+   - client-side routing for navigation between different pages.
+   - state management to handle application state and data fetching.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+   # Core Deliverables
+   - Frontend Development with React.
+   - Backend Development with FastAPI.
+   - Integration and Deployment.
 
-Currently, two official plugins are available:
+   # Author
+   Liz W. Wachira
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+   # Tools
+   React 
+   BootstrapCSS
+   SQlite
+   FastAPI
