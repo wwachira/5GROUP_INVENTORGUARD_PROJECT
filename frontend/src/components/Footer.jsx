@@ -1,31 +1,33 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+
+import { Container, Row, Col } from 'reactstrap';
 
 const Footer = () => {
+  
   return (
-    <Container fluid className="bg-light">
-      <Row className="row-cols-1 row-cols-md-3 g-4">
-        <Col>
-          <h5>Locations</h5>
-          <ul>
+    <Container fluid className="bg-light py-4">
+      <Row>
+        <Col xs="12" sm="6" md="4" lg="3">
+          <h5>Locations:</h5>
+          <ul className="list-unstyled">
             <li>Ngong Rd</li>
             <li>Thika Rd</li>
             <li>Mombasa Rd</li>
           </ul>
         </Col>
-        <Col>
-          <h5>Contact Information</h5>
+        <Col xs="12" sm="6" md="4" lg="3">
+          <h5>Contact Us:</h5>
           <p>
-            Phone: 0723 456 789
+            Phone: +254 123 456 789
             <br />
             Email: [info@beinafuu.com](mailto:info@beinafuu.com)
           </p>
         </Col>
-        <Col>
-          <h5>Subscribe to Our Newsletter</h5>
+        <Col xs="12" sm="6" md="4" lg="3">
+          <h5>Subscribe to Our Newsletter:</h5>
           <p>
-            You are now subscribed.
+            Email: [info@beinafuu.com]
           </p>
+          
         </Col>
       </Row>
     </Container>

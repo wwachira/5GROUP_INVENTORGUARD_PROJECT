@@ -1,34 +1,24 @@
 {
-    "bookings": [
-      {
-        "id": 1,
-        "name": "John Doe",
-        "phoneNumber": "0723456789",
-        "location": "Ngong Rd",
-        "numberOfPeople": 1,
-        "orderTreatment": "Massage",
-        "date": "2022-06-16T14:30:00.000Z",
-        "time": "14:30"
-      },
-      {
-        "id": 2,
-        "name": "Jane Doe",
-        "phoneNumber": "0723456789",
-        "location": "Thika Rd",
-        "numberOfPeople": 2,
-        "orderTreatment": "Massage",
-        "date": "2022-06-17T10:00:00.000Z",
-        "time": "10:00"
-      },
-      {
-        "id": 3,
-        "name": "Bob Smith",
-        "phoneNumber": "0723456789",
-        "location": "Mombasa Rd",
-        "numberOfPeople": 1,
-        "orderTreatment": "Massage",
-        "date": "2022-06-18T14:30:00.000Z",
-        "time": "14:30"
-      }
-    ]
-  }
+  "appointments": [
+    {
+      "id": 1,
+      "name": "Liz Wachira",
+      "phoneNumber": "1234567890",
+      "location": "Ngong Rd",
+      "numberOfPeople": 1,
+      "orderTreatment": "Sugar Scrub: 30 minutes, KES 1,000",
+      "date": "2024-06-18",
+      "time": "8:00 AM"
+    },
+    {
+      "id": 2,
+      "name": "Wachira Liz",
+      "phoneNumber": "0987654321",
+      "location": "Thika Rd",
+      "numberOfPeople": 2,
+      "orderTreatment": "Deluxe Facial: 90 minutes, KES 5,000",
+      "date": "2024-06-19",
+      "time": "9:00 AM"
+    }
+  ]
+}

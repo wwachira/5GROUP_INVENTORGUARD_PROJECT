@@ -1,86 +1,92 @@
-import React from 'react';
-import { Card, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Card, CardBody, CardTitle, CardText } from 'reactstrap';
 
 const AboutUs = () => {
   return (
-    <div className="container">
-      <h1 className="text-center">About Us</h1>
-      <Row className="row-cols-1 row-cols-md-4 g-4">
-        <Col>
-          <Card className="h-100">
-            <Card.Img
-              variant="top"
-              src="src/assets/face.jpeg"
-              alt="Facial Treatment"
-            />
-            <Card.Body>
-              <Card.Title>Facial Treatment</Card.Title>
-              <Card.Text>
-                Our facial treatment is designed to rejuvenate and nourish your skin.
-              </Card.Text>
-            </Card.Body>
+    
+    <Container fluid>
+      <Row>
+        <Col xs="12" sm="6" md="4" lg="3">
+          <Card>
+            <CardBody>
+              <CardTitle tag="h5">Facials</CardTitle>
+              <CardText>
+                <ul>
+                  <li>
+                    Basic Facial: 30 minutes, KES 1,500
+                  </li>
+                  <li>
+                    Advanced Facial: 60 minutes, KES 3,000
+                  </li>
+                  <li>
+                    Deluxe Facial: 90 minutes, KES 5,000
+                  </li>
+                </ul>
+              </CardText>
+            </CardBody>
           </Card>
         </Col>
-        <Col>
-          <Card className="h-100">
-            <Card.Img
-              variant="top"
-              src="src/assets/body.jpg"
-              alt="Body Treatment"
-            />
-            <Card.Body>
-              <Card.Title>Body Treatment</Card.Title>
-              <Card.Text>
-                Our body treatment is designed to relax and rejuvenate your entire body.
-              </Card.Text>
-            </Card.Body>
+        <Col xs="12" sm="6" md="4" lg="3">
+          <Card>
+            <CardBody>
+              <CardTitle tag="h5">Body Treatments</CardTitle>
+              <CardText>
+                <ul>
+                  <li>
+                    Sugar Scrub: 30 minutes, KES 1,000
+                  </li>
+                  <li>
+                    Body Wrap: 60 minutes, KES 2,000
+                  </li>
+                  <li>
+                    Massage: 90 minutes, KES 3,500
+                  </li>
+                </ul>
+              </CardText>
+            </CardBody>
           </Card>
         </Col>
-        <Col>
-          <Card className="h-100">
-            <Card.Img
-              variant="top"
-              src="src/assets/hair.jpeg"
-              alt="Nails Treatment"
-            />
-            <Card.Body>
-              <Card.Title>Nails Treatment</Card.Title>
-              <Card.Text>
-                Our nails treatment is designed to make your nails look beautiful and healthy.
-              </Card.Text>
-            </Card.Body>
+        <Col xs="12" sm="6" md="4" lg="3">
+          <Card>
+            <CardBody>
+              <CardTitle tag="h5">Nails</CardTitle>
+              <CardText>
+                <ul>
+                  <li>
+                    Basic Manicure: 30 minutes, KES 500
+                  </li>
+                  <li>
+                    Advanced Manicure: 60 minutes, KES 1,000
+                  </li>
+                  <li>
+                    Pedicure: 90 minutes, KES 1,500
+                  </li>
+                </ul>
+              </CardText>
+            </CardBody>
           </Card>
         </Col>
-        <Col>
-          <Card className="h-100">
-            <Card.Img
-              variant="top"
-              src="src/assets/hair.jpeg"
-              alt="Hair Treatment"
-            />
-            <Card.Body>
-              <Card.Title>Hair Treatment</Card.Title>
-              <Card.Text>
-                Our hair treatment is designed to nourish and rejuvenate your hair.
-              </Card.Text>
-            </Card.Body>
+        <Col xs="12" sm="6" md="4" lg="3">
+          <Card>
+            <CardBody>
+              <CardTitle tag="h5">Hair</CardTitle>
+              <CardText>
+                <ul>
+                  <li>
+                    Basic Hair Treatment: 30 minutes, KES 1,000
+                  </li>
+                  <li>
+                    Advanced Hair Treatment: 60 minutes, KES 2,000
+                  </li>
+                  <li>
+                    Hair Styling: 90 minutes, KES 3,000
+                  </li>
+                </ul>
+              </CardText>
+            </CardBody>
           </Card>
         </Col>
       </Row>
-      <h2 className="text-center">Order Treatments</h2>
-      <p className="text-center">
-        <strong>Facial Treatment:</strong> 30 minutes, KES 2,000
-      </p>
-      <p className="text-center">
-        <strong>Body Treatment:</strong> 60 minutes, KES 4,000
-      </p>
-      <p className="text-center">
-        <strong>Nails Treatment:</strong> 30 minutes, KES 1,500
-      </p>
-      <p className="text-center">
-        <strong>Hair Treatment:</strong> 60 minutes, KES 3,000
-      </p>
-    </div>
+    </Container>
   );
 };
 

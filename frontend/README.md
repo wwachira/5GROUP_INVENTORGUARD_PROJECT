@@ -1,3 +1,4 @@
+# React + Vite
   # Phase 3 -Project Challenge: Bei Nafuu Spa KE - with database
    - user-friendly interface for for the Spa.
    - Two components for different parts of the application.
@@ -15,5 +16,22 @@
    # Tools
    React 
    BootstrapCSS
+   Python
    SQlite
    FastAPI
+ npm create vite@latest
+ npm install
+ npm install react-icons --save
+ npm i bootstrap
+ npm install react react-dom reactstrap moment bootstrap
+ npm install react react-dom reactstrap moment
+ npm run dev
+ BeiNafuuSPA-app/
+├── components/ 
+│   ├── Header.jsx
+│   ├── AboutUs.jsx
+│   ├── BookingForm.jsx
+│   └── Footer.jsx
+├── 
+├── App.jsx
+└── main.jsx
