@@ -1,0 +1,6 @@
+/* dashboard.css */
+main[role="main"] {
+    background-image: url('https://studyworkgrow.com.au/wp-content/uploads/2020/02/Warehousing-1024x614.jpg');
+    background-size: cover;
+    background-position: center;
+  }
